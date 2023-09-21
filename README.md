@@ -30,5 +30,3 @@ Starting out with Verilog during my digital systems design class, despite search
 • Compiler: Icarus Verilog 0.9.7  
 • To open EPWave after run: include the lines ```$dumpfile("dump.vcd"); $dumpvars;``` at the start of the testbenches' inital block
 ### Errors/Updates/Contact
-# verilog-dsd
-Verilog code for basic combinational and sequential circuits
