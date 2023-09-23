@@ -1,16 +1,10 @@
-//Full Adder Gate-Level Modeling using 2 Half Adders
-module HalfAdder(sum,carry,a,b);
-  output sum,carry;
-  input a,b;
-  assign sum = a^b;
-  assign carry = a&b;
-endmodule
-
 module FullAdder_structural(sum,carry,a,b,Cin);
   output sum,carry;
   input a,b,Cin;
-  wire s1,c1,c2;
-  HalfAdder HA1(s1,c1,a,b);
-  HalfAdder HA2(sum,c2,s1,Cin);
-  or g1(carry,c1,c2);
+  wire sum1, carry1, carry2;
+  xor g1(sum1,a,b);
+  xor g2(sum, sum1,Cin);
+  and g3(carry1,a,b);
+  and g4(carry2,sum1,Cin);
+  or g5(carry,carry1,carry2);
 endmodule
