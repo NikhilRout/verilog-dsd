@@ -32,6 +32,10 @@ Starting out with Verilog during my digital systems design class, despite search
 ### EDAPlayground Settings
 [EDAPlayground](http://www.edaplayground.com) is a web application that includes a free online IDE and a community project hub I used to quickly test code and look for other's implementations of the same circuits\
 • Compiler: Icarus Verilog 0.9.7  
-• To open EPWave after run: include the lines ```$dumpfile("dump.vcd"); $dumpvars;``` at the start of the testbenches' inital block
+• To open EPWave after run, include the lines
+```verilog 
+$dumpfile("dump.vcd"); $dumpvars;
+```
+at the start of the testbenches' inital block
 
 ### Errors/Updates/Contact
