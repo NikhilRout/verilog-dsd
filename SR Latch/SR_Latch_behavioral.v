@@ -1,6 +1,7 @@
 module SR_Latch_behavioral(
     input R, S, EN,
-    output reg Q, Qbar
+    output reg Q,
+    output Qbar
 );
   always @(*) begin
     if (EN) begin
@@ -11,7 +12,7 @@ module SR_Latch_behavioral(
         2'b11: Q <= 1'bx; // Invalid inputs
       endcase
     end
-    assign Qbar = ~Q;
   end
+  assign Qbar = ~Q;
 endmodule
 

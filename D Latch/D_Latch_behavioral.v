@@ -6,6 +6,6 @@ module D_Latch_behavioral(
     if(EN) begin
       Q <= D;
     end
-  assign Qbar = ~Q;
   end
+  assign Qbar = ~Q;
 endmodule
