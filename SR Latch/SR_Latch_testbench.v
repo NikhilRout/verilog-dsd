@@ -1,7 +1,7 @@
 module SR_Latch_testbench;
   reg R, S, EN;
   wire Q, Qbar;
-  SR_Latch_dataflow uut (.R(R),.S(S),.EN(EN), .Q(Q), .Qbar(Qbar));
+  SR_Latch_behavioral uut (.R(R),.S(S),.EN(EN), .Q(Q), .Qbar(Qbar));
   initial begin
     $monitor("EN=%b R=%b S=%b, Q=%b, Qbar=%b", EN, R, S, Q,Qbar);
     EN = 1; R = 0; S = 0;
