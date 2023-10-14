@@ -21,6 +21,10 @@ Starting out with Verilog during my digital systems design class, despite search
 ## Projects (Sequential)
 1. SR Latch
 2. D Latch
+3. SR Flip-FLop
+4. D Flip-Flop
+5. JK Flip-Flop
+6. T Flip-Flop
 
 ## Random Notes
 
