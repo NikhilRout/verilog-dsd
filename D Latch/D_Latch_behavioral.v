@@ -1,6 +1,7 @@
 module D_Latch_behavioral(
   input D, EN,
-  output reg Q, Qbar
+  output reg Q,
+  output Qbar
 );
   always @(*) begin
     if(EN) begin
