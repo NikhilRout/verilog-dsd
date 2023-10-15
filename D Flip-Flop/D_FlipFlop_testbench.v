@@ -7,7 +7,9 @@ module D_FlipFlop_testbench;
     clk = 1;
     $monitor("D = %b, Q = %b", D, Q);
     D = 1;
-    #100; D =0;
+    #100 D = 0;
+    #100 D = 1;
+    #100 D = 0;
     #100;
     $stop;
   end

@@ -1,8 +1,8 @@
 module D_FlipFlop(
-  input clk, D,
+  input clk, rst, D,
   output reg Q
 );
   always @(posedge clk) begin
-    Q <= D;
+      Q <= D;
   end 
 endmodule
