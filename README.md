@@ -11,35 +11,42 @@ Starting out with Verilog during my digital systems design class, despite search
 4. Half Subtractor
 5. Full Subtractor
 6. 4-bit Ripple Carry Adder
-7. Decoders
-8. Encoders
-9. Parity Generator
-10. Parity Checker
-11. Multiplexers
-12. Demultiplexers
+7. Parallel Adder/Subtractor
+8. Decoders
+9. Encoders
+10. Parity Generator
+11. Parity Checker
+12. Multiplexers
+13. Demultiplexers
+14. Array Multiplier
+15. Booth Multiplier
+16. Magnitude Comparator
 
 ## Projects (Sequential)
+### Latches
 1. SR Latch
 2. D Latch
-3. SR Flip-FLop
-4. D Flip-Flop
-5. JK Flip-Flop
-6. T Flip-Flop
+### Flip-Flops
+4. SR Flip-FLop
+5. D Flip-Flop
+6. JK Flip-Flop
+7. T Flip-Flop
+### Registers
+1. SISO
+2. SIPO
+3. PISO
+4. PIPO
 
 ## Random Notes
 
-### Modeling style to use when you've got:
+### Choosing modeling style
 • Boolean Expression &rarr; Dataflow\
 • Logic Diagram &rarr; Structural\
 • Truth Table &rarr; Behavioral
 
 ### EDAPlayground Settings
-[EDAPlayground](http://www.edaplayground.com) is a web application that includes a free online IDE and a community project hub I used to quickly test code and look for other's implementations of the same circuits\
+[EDAPlayground](http://www.edaplayground.com) is an application that includes a free online IDE and a community project hub I used to quickly test code and look for other's implementations of the same circuits\
 • Compiler: Icarus Verilog 0.9.7  
-• To open EPWave after run, include the lines
-```verilog 
-$dumpfile("dump.vcd"); $dumpvars;
-```
-at the start of the testbenches' inital block
+• To open EPWave after run, include the lines ```verilog $dumpfile("dump.vcd"); $dumpvars;``` at the start of the testbenches' inital block
 
 ### Errors/Updates/Contact
