@@ -10,9 +10,9 @@ module SISO(
       tmp <= 4'b0000;
       data_out <= 1'b0;
     end else begin
-      tmp = tmp >> 1;
-      tmp[3] = data_in;
-      data_out = tmp[0];
+      tmp = tmp >> 1; // << for left-shift
+      tmp[3] = data_in; // tmp[0]
+      data_out = tmp[0]; // tmp[3]
     end
   end
 endmodule
