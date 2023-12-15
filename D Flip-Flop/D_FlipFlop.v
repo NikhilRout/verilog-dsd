@@ -1,5 +1,5 @@
 module D_FlipFlop(
-  input clk, rst, D,
+  input clk, D,
   output reg Q
 );
   always @(posedge clk) begin
