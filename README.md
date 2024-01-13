@@ -10,7 +10,7 @@ Starting out with Verilog during my digital systems design class, despite search
 2. Full Adder
 3. Half Subtractor
 4. Full Subtractor
-5. 4-bit Ripple Carry Adder
+5. Ripple Carry Adder (4-bit, n-bit)
 6. Parallel Adder/Subtractor
 7. Carry Look-Ahead Adder
 ### Decoders/Encoders
