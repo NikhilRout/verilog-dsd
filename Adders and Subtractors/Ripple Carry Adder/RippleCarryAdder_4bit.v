@@ -18,4 +18,3 @@ module RippleCarryAdder_4bit(
   FullAdder FA2(sum[2], carry[2], A[2], B[2], carry[1]);
   FullAdder FA3(sum[3], cout, A[3], B[3], carry[2]);
 endmodule
-
