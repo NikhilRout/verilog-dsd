@@ -2,7 +2,7 @@
 Verilog code for basic combinational and sequential circuits (with testbenches)
 
 ## About
-Starting out with Verilog during my digital systems design class, I couldn't find a comprehensive Verilog guide with multiple examples all in one resource. So I decided to create this reference repository consolidating all my Verilog code as I progressed in class and my own study. It includes the dataflow, structural, and behavioral modeling of Verilog code for a broad range of fundamental combinational and sequential circuits, complete with corresponding testbenches
+Starting out with Verilog during my first digital systems design class, I couldn't find a comprehensive Verilog guide with multiple examples all in one resource. So I decided to create this reference repository consolidating all my Verilog code as I progressed in class and my own study. It includes the dataflow, structural, and behavioral modeling of Verilog code for a broad range of fundamental combinational and sequential circuits, complete with corresponding testbenches
 
 ## Projects (Combinational)
 ### Adders and Subtractors
