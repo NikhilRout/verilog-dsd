@@ -2,7 +2,7 @@
 Verilog code for basic combinational and sequential circuits (with testbenches)
 
 ## About
-Starting out with Verilog during my digital systems design class, despite searching the web for hours, I couldn't find a comprehensive Verilog guide with multiple examples in one resource. So I decided to create this reference repository consolidating all my Verilog code as I progressed in class and my own study. It includes the dataflow, structural, and behavioral modeling of Verilog code for a broad spectrum of fundamental combinational and sequential circuits, complete with corresponding testbenches
+Starting out with Verilog during my digital systems design class, I couldn't find a comprehensive Verilog guide with multiple examples all in one resource. So I decided to create this reference repository consolidating all my Verilog code as I progressed in class and my own study. It includes the dataflow, structural, and behavioral modeling of Verilog code for a broad range of fundamental combinational and sequential circuits, complete with corresponding testbenches
 
 ## Projects (Combinational)
 ### Adders and Subtractors
@@ -60,7 +60,7 @@ Starting out with Verilog during my digital systems design class, despite search
 • Logic Diagram &rarr; Structural\
 • Truth Table &rarr; Behavioral
 ### EDAPlayground Settings
-[EDAPlayground](http://www.edaplayground.com) is an application that includes a free online IDE and a community project hub I used to quickly test code and look for other's implementations of the same circuits\
+[EDAPlayground](http://www.edaplayground.com) is an application that includes an online IDE to simulate Verilog programs and a community project hub
 • Compiler: Icarus Verilog 0.9.7  
 • To open EPWave after run, include the lines ```verilog $dumpfile("dump.vcd"); $dumpvars;``` at the start of the testbenches' inital block
 ### Errors/Updates/Contact
