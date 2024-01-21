@@ -14,8 +14,11 @@ Starting out with Verilog during my first digital systems design class, I couldn
 6. Combined Parallel Adder/Subtractor
 7. Carry Look-Ahead Adder
 ### Decoders/Encoders
-1. Decoders
-2. Encoders
+1. Decoder 2:4
+2. Decoder 3:8
+3. Encoder 4:2
+4. Encoder Octal:Binary
+6. Priority Encoder (4:2)
 ### Multiplexers/Demultiplexers
 1. Multiplexers
 2. Demultiplexers
