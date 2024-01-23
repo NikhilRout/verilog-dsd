@@ -51,11 +51,6 @@ Starting out with Verilog during my first digital systems design class, I couldn
 2. Synchronous Counter
 3. Ring Counter
 4. Johnson Counter
-### Mealy-Moore Sequence Detectors
-1. Overlapping Mealy
-2. Non-Overlapping Mealy
-3. Overlapping Moore
-4. Non-Overlapping Moore
 
 ## Random Notes
 ### Choosing modeling style
