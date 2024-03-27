@@ -29,7 +29,7 @@ Starting out with Verilog during my first digital systems design class, I couldn
 1. Array Multiplier
 2. Booth Multiplier
 3. LUT Multiplier
-4. LUT Multiplier code generator py
+4. LUT Multiplier py code generator
 ### Misc
 1. Basic Gates
 2. Magnitude Comparator
