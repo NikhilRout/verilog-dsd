@@ -20,8 +20,8 @@ Starting out with Verilog during my first digital systems design class, I couldn
 4. Encoder Octal:Binary
 6. Priority Encoder (4:2)
 ### Multiplexers/Demultiplexers
-1. Multiplexers
-2. Demultiplexers
+1. Multiplexer (4:1)
+2. Demultiplexer (1:8)
 ### Parity Gen/Check
 1. Parity Generator
 2. Parity Checker
