@@ -33,6 +33,8 @@ Starting out with Verilog during my first digital systems design class, I couldn
 ### Misc
 1. Basic Gates
 2. Magnitude Comparator
+3. Binary to Gray Code
+4. Gray Code to Binary
 
 ## Projects (Sequential)
 ### Latches
@@ -53,6 +55,7 @@ Starting out with Verilog during my first digital systems design class, I couldn
 2. Synchronous Counter
 3. Ring Counter
 4. Johnson Counter
+5. Gray Counter
 
 ## Random Notes
 ### Choosing modeling style
