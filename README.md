@@ -35,6 +35,7 @@ Starting out with Verilog during my first digital systems design class, I couldn
 2. Magnitude Comparator
 3. Binary to Gray Code
 4. Gray Code to Binary
+5. Tri-State Buffers
 
 ## Projects (Sequential)
 ### Latches
@@ -67,3 +68,4 @@ Starting out with Verilog during my first digital systems design class, I couldn
 • Compiler: Icarus Verilog 0.9.7  
 • To open EPWave after run, include the lines ```$dumpfile("dump.vcd"); $dumpvars;``` at the start of the testbenches' inital block
 ### Errors/Updates/Contact
+![Static Badge](https://img.shields.io/badge/Discord?style=social&logo=discord&logoColor=white&labelColor=blue&color=blue&link=discordapp.com%2Fusers%2F705711221780905995)
