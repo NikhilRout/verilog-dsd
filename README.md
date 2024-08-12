@@ -57,6 +57,10 @@ Starting out with Verilog during my first digital systems design class, I couldn
 3. Ring Counter
 4. Johnson Counter
 5. Gray Counter
+### Finite State Machines
+1. FSM Examples
+2. Moore Sequence Detector
+3. Mealy Sequence Detector
 
 ## Random Notes
 ### Choosing modeling style
@@ -68,4 +72,11 @@ Starting out with Verilog during my first digital systems design class, I couldn
 • Compiler: Icarus Verilog 0.9.7  
 • To open EPWave after run, include the lines ```$dumpfile("dump.vcd"); $dumpvars;``` at the start of the testbenches' inital block
 ### Errors/Updates/Contact
-![Static Badge](https://img.shields.io/badge/Discord?style=social&logo=discord&logoColor=white&labelColor=blue&color=blue&link=discordapp.com%2Fusers%2F705711221780905995)
+<p align="left">
+    <a href="https://discordapp.com/users/705711221780905995">
+    <img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&logoColor=white&color=black"></a>
+    <a href="mailto:nikhilrout97@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+    <a href="https://www.linkedin.com/in/nikhil-rout">
+    <img src="https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=blue"></a>
+</p>
