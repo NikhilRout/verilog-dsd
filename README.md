@@ -36,6 +36,7 @@ Starting out with Verilog during my first digital systems design class, I couldn
 3. Binary to Gray Code
 4. Gray Code to Binary
 5. Tri-State Buffers
+6. Sign-Extender(9 to 16)
 
 ## Projects (Sequential)
 ### Latches
