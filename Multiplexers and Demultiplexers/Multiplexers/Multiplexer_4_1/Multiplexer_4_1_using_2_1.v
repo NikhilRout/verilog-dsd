@@ -1,7 +1,7 @@
 //4:1 mux using 2:1 mux
 module mux2_1(
   output Y,
-  input [2:0] D,
+  input [1:0] D,
   input sel
   );
   assign Y = sel?D[1]:D[0]; //if sel = 1 y = D[1], if sel = 0, y = D[0]
