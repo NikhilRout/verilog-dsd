@@ -1,4 +1,4 @@
-module SignExtenderMtoN #(parameter N = 9, M = 16)(
+module SignExtenderNtoM #(parameter N = 9, M = 16)(
     input [N-1:0] in,
     output [M-1:0] out
 );
