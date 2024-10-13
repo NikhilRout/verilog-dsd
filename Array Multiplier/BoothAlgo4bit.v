@@ -19,7 +19,6 @@ module BoothAlgo4bit (
                     Z[8:5] = Z[8:5] - M;
                 end
             endcase
-
             Z = {Z[8], Z[8:1]};  //ASR with sign extension
         end
     end
