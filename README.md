@@ -39,6 +39,7 @@ Starting out with Verilog during my first digital systems design class, I couldn
 5. Tri-State Buffers
 6. Sign-Extender(9 to 16)
 7. Switch-Level-Modeled Basic Gates
+8. Reversible Full Adder
 
 ## Projects (Sequential)
 ### Latches
