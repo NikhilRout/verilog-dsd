@@ -1,8 +1,10 @@
 # verilog-dsd
-Verilog implementations of fundamental combinational and sequential circuits (with testbenches)
+Verilog/SystemVerilog implementations of fundamental combinational and sequential circuits (with testbenches)
 
 ## About
-Starting out with Verilog during my first digital systems design class, I couldn't find a comprehensive Verilog guide with multiple examples all in one resource. So I decided to create this reference repository consolidating all my Verilog code as I progressed in class and my own study. It includes the dataflow, structural, and behavioral modeling of Verilog code for a broad range of fundamental combinational and sequential circuits, complete with corresponding testbenches
+Starting out with Verilog during my first digital systems design class, I couldn't find a comprehensive Verilog guide with multiple examples all in one resource. So I decided to create this reference repository consolidating all my Verilog code as I progressed in class and my own study. It includes the dataflow, structural, and behavioral modeling of Verilog code for a broad range of fundamental combinational and sequential circuits, complete with corresponding testbenches.
+
+Update: I've also added some more parameterized advanced circuits from a FPGA System Design class I took.
 
 ## Projects (Combinational)
 ### Adders and Subtractors
@@ -10,9 +12,13 @@ Starting out with Verilog during my first digital systems design class, I couldn
 2. Full Adder
 3. Half Subtractor
 4. Full Subtractor
-5. 4-bit Ripple Carry Adder, n-Bit
-6. Combined Parallel Adder/Subtractor
-7. Carry Look-Ahead Adder
+5. Ripple Carry Adder
+### Advanced Adders
+1. Carry Look Ahead Adder
+2. Carry Save Adder
+3. Carry Select Adder
+4. Combined Adder Subtractor
+5. Serial Adder using FSM
 ### Decoders/Encoders
 1. Decoder (2:4)
 2. Decoder (3:8)
@@ -22,15 +28,10 @@ Starting out with Verilog during my first digital systems design class, I couldn
 ### Multiplexers/Demultiplexers
 1. Multiplexer (4:1)
 2. Demultiplexer (1:8)
-### Parity Gen/Check
-1. Parity Generator
-2. Parity Checker
 ### Multipliers
 1. Array Multiplier
 2. Booth Multiplier
-3. LUT Multiplier
-4. LUT Multiplier py code generator
-5. Booth Algorithm 4-bit
+3. LUT Multiplier 
 ### Misc
 1. Basic Gates
 2. Magnitude Comparator
@@ -40,6 +41,7 @@ Starting out with Verilog during my first digital systems design class, I couldn
 6. Sign-Extender(9 to 16)
 7. Switch-Level-Modeled Basic Gates
 8. Reversible Full Adder
+9. Parity Gen/Check
 
 ## Projects (Sequential)
 ### Latches
@@ -65,6 +67,10 @@ Starting out with Verilog during my first digital systems design class, I couldn
 1. FSM Examples
 2. Moore Sequence Detector
 3. Mealy Sequence Detector
+### Memory
+1. ROM
+2. RAM
+3. FIFO
 
 ## Random Notes
 ### Choosing modeling style
