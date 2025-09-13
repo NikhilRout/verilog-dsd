@@ -7,8 +7,8 @@ module RippleCarryAdder_nBit_testbench;
   initial begin
     $random;
     repeat (10) begin
-      A = $urandom_range(0,15);
-      B = $urandom_range(0,15);
+      A = $urandom_range(0,2**N-1);
+      B = $urandom_range(0,2**N-1);
       $display("A = %d, B = %d", $unsigned(A), $unsigned(B));
       #100;
       $display("Sum = %d, Carry = %d", $unsigned(sum), $unsigned(cout));
